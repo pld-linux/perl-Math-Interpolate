@@ -3,8 +3,8 @@
 %bcond_without	tests	# do not perform "make test"
 #
 %include	/usr/lib/rpm/macros.perl
-%define	pdir	Math
-%define	pnam	Interpolate
+%define		pdir	Math
+%define		pnam	Interpolate
 Summary:	Math::Interpolate Perl module - interpolating data sets
 Summary(pl):	Modu³ Perla Math::Interpolate - interpolacja zbiorów danych
 Name:		perl-Math-Interpolate
