@@ -26,7 +26,7 @@ value lies in a sorted list.
 
 %description -l pl
 Modu³ Math::Interpolate zawiera funkcje przydatne do interpolacji
-zbiorów danych i znajdywania, gdzie dana warto¶æ le¿y na posortowanej
+zbiorów danych i znajdowania, gdzie dana warto¶æ le¿y na posortowanej
 li¶cie.
 
 %prep
