@@ -6,7 +6,7 @@
 %define		pdir	Math
 %define		pnam	Interpolate
 Summary:	Math::Interpolate Perl module - interpolating data sets
-Summary(pl):	Modu≥ Perla Math::Interpolate - interpolacja zbiorÛw danych
+Summary(pl.UTF-8):   Modu≈Ç Perla Math::Interpolate - interpolacja zbior√≥w danych
 Name:		perl-Math-Interpolate
 Version:	1.05
 Release:	2
@@ -24,10 +24,10 @@ This is the Math::Interpolate package. This module contains several
 useful routines for interpolating data sets and finding where a given
 value lies in a sorted list.
 
-%description -l pl
-Modu≥ Math::Interpolate zawiera funkcje przydatne do interpolacji
-zbiorÛw danych i znajdowania, gdzie dana warto∂Ê leøy na posortowanej
-li∂cie.
+%description -l pl.UTF-8
+Modu≈Ç Math::Interpolate zawiera funkcje przydatne do interpolacji
+zbior√≥w danych i znajdowania, gdzie dana warto≈õƒá le≈ºy na posortowanej
+li≈õcie.
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
