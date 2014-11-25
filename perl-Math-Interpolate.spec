@@ -1,10 +1,10 @@
 #
 # Conditional build:
 %bcond_without	tests	# do not perform "make test"
-#
-%include	/usr/lib/rpm/macros.perl
+
 %define		pdir	Math
 %define		pnam	Interpolate
+%include	/usr/lib/rpm/macros.perl
 Summary:	Math::Interpolate Perl module - interpolating data sets
 Summary(pl.UTF-8):	Moduł Perla Math::Interpolate - interpolacja zbiorów danych
 Name:		perl-Math-Interpolate
@@ -14,6 +14,7 @@ License:	unknown
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
 # Source0-md5:	1826c6c24b75a2a27964c3dac198adac
+URL:		http://search.cpan.org/dist/Math-Interpolate/
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
 BuildArch:	noarch
