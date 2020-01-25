@@ -4,7 +4,6 @@
 
 %define		pdir	Math
 %define		pnam	Interpolate
-%include	/usr/lib/rpm/macros.perl
 Summary:	Math::Interpolate Perl module - interpolating data sets
 Summary(pl.UTF-8):	Moduł Perla Math::Interpolate - interpolacja zbiorów danych
 Name:		perl-Math-Interpolate
