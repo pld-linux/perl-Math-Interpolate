@@ -7,12 +7,12 @@
 Summary:	Math::Interpolate Perl module - interpolating data sets
 Summary(pl.UTF-8):	Moduł Perla Math::Interpolate - interpolacja zbiorów danych
 Name:		perl-Math-Interpolate
-Version:	1.05
-Release:	4
+Version:	1.06
+Release:	1
 License:	unknown
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
-# Source0-md5:	1826c6c24b75a2a27964c3dac198adac
+# Source0-md5:	06529ef3b1c94f32a0da5dbe0ebdef5e
 URL:		http://search.cpan.org/dist/Math-Interpolate/
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
